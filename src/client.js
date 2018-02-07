@@ -256,7 +256,7 @@ class SocketPipe {
         console.error(`[target:${this.id}] Target socket was closed with error: `, hadError);
       }
 
-      this.relaySocket.terminate();
+      this.terminate();
     });
 
   }

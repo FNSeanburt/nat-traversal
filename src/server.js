@@ -334,8 +334,6 @@ class SocketListener {
         commonName: this.options.tlsCommonName,
       });
 
-      console.log(keys);
-
       tlsOptions = {
         key: keys.serviceKey,
         cert: keys.certificate,
